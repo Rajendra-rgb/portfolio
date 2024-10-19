@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rajendra Basnet Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<style> 
+    /* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ADD8E6; 
+    color: #000; 
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #ADD8E6; /* Light blue background for header */
+    padding: 20px 0;
+}
+
+.logo img {
+    width: 40px;  /* Setting image width */
+    height: 60px; /* Setting image height */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul li a {
+    color: #000; /* Black font for navigation */
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #000; /* Black hover effect */
+    color: #ADD8E6; /* Text color changes to light blue on hover */
+    border-radius: 5px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+    background-color: #ADD8E6; /* Light blue background for hero section */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #000; /* Black heading */
+}
+
+.hero-text p {
+    margin: 20px 0;
+    color: #000; /* Black text */
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* Black button */
+    color: #ADD8E6; /* Light blue text */
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.cta:hover {
+    background-color: #333; /* Darker black on hover */
+}
+
+.hero-image img {
+    width: 40px;  /* Setting image width */
+    height: 60px; /* Setting image height */
+    border-radius: 10px;
+}
+
+.about, .experience, .education {
+    padding: 100px 0;
+    background-color: #ADD8E6; /* Light blue background for about, experience, and education */
+}
+
+.skills {
+    padding: 100px 0;
+    background-color: #ADD8E6; /* Light blue background for skills section */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #000; /* Black heading */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.skills ul, .experience ul, .education ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.skills ul li, .experience ul li, .education ul li {
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+    color: #000; /* Black text */
+}
+
+footer {
+    background-color: #ADD8E6; /* Light blue background for footer */
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: #000; /* Black text in footer */
+    text-decoration: none;
+}
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F8FF; /* Light background */
+    color: #000; /* Black font color */
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Center align text and image */
+}
+
+.hero {
+    padding: 50px 0;
+    background-color: #E0FFFF; /* Light cyan background */
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.cta {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #000; /* Black button */
+    color: #fff; /* White text */
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 30px; /* Add some space between button and image */
+}
+
+.hero-image img {
+    width: 400px;
+    height: 500px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+
+</style>
+<body>
+
+    <header id="home">
+        <div class="container">
+            <div class="logo">
+                <img src="assets/logo.png" alt="Logo" class="logo-img" width="550" height="100">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="education.html" target="_blank"> Education</a></li> 
+                    <li><a href="cover.html">Cover Letter</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-text">
+                <h1>Rajendra Basnet</h1>
+                <p class="hero-description">Hardworking professional with 3 years of experience as a Radio Technician and 2.5 years as a Radio Jockey, now transitioning into IT with a focus on innovation and growth.</p>
+            </div>
+          
+
+            <div class="hero-image">
+                <img src="assets/hero-image.png" alt="Rajendra Basnet" class="hero-img">
+            </div>
+        </div>
+    </section>
+
+
+</body>
+</html>
